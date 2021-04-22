@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "setup": "npm i && npm i --prefix",
+    "setup": "npm i && npm i --prefix client",
     "start": "node index.js",
     "build": "npm run build --prefix client",
     "deploy": "npm run setup && npm run build && npm start"
