@@ -1,3 +1,3 @@
 ## To run this application
 
-`npm start` from root directory
+`npm deploy` from root directory
