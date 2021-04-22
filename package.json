@@ -1,0 +1,18 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm i && npm i --prefix",
+    "start": "node index.js",
+    "build": "npm run build --prefix client",
+    "deploy": "npm run setup && npm run build && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
